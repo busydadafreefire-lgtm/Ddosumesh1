@@ -11,12 +11,12 @@ from threading import Thread
 loop = asyncio.get_event_loop()
 
 # Bot token
-TOKEN = '7362289727:AAE6RWfho65aJUxMyOSdvxXVBndKGx4QZcc'
+TOKEN = '8489993742:AAHUtVukWmrIocSj5fzHCZXY3CC7xwWoHCo'
 bot = telebot.TeleBot(TOKEN)
 REQUEST_INTERVAL = 1
 
 # Admins list
-ADMIN_IDS = [2085082046]  # Replace with actual admin user IDs
+ADMIN_IDS = [7379472383]  # Replace with actual admin user IDs
 
 # File to store user information
 USERS_FILE = 'users.txt'
@@ -252,3 +252,4 @@ if __name__ == "__main__":
     bot.polling(none_stop=True)
 
 CREATOR = "This File Is Made By @SahilModzOwner" #DON'T CHANGE THIS WARNA ERROR AYEGA 100%
+
